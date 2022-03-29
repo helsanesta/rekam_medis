@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        \App\Models\rekam::factory(5)->create();
+        // \App\Models\rekam::factory(5)->create();
 
         pasien::create([
             'name' => 'Helsa Nesta Dhaifullah',
